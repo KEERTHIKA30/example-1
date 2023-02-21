@@ -1,0 +1,27 @@
+body{
+	background-color: white;
+}
+p{
+
+	text-align: left;
+}
+ul{
+	font-weight: bold;
+	list-style-type: none;
+}
+.a{
+	background-color: lightgrey;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+.a:visited{
+	color: violet;
+}
+.a:hover{
+	color: red;
+}
+.a:hover,.a:focus{
+	color: blue;
+}
